@@ -12,41 +12,36 @@ import java.util.logging.Logger;
 public class ServerTCP {
 
 	private static AtomicInteger connectedClients = new AtomicInteger(0);
+	private static int port = 7;
 	private final int MAXIMUM_CLIENTS_CONNECTED = 3;
 	private Logger LOGGER = Logger.getLogger(this.getClass().getName());
 	private ServerSocket serverSocket;
-	private static int port = 7;
-
 
 	public ServerTCP(int port) throws IOException {
 		try {
-			serverSocket = new ServerSocket(port,50,InetAddress.getByName("192.168.56.1"));
+			serverSocket = new ServerSocket(port, 50, InetAddress.getByName("192.168.56.1"));
 //			serverSocket = new ServerSocket(port);
 			printServerInfo();
 		} catch (IOException i) {
 
-			throw new IOException("Problem while init socket: " +  i);
+			throw new IOException("Problem while init socket: " + i);
 		}
 	}
-	public InetAddress getServerIp() throws UnknownHostException {
+
+	public InetAddress getServerIp() {
 		return serverSocket.getInetAddress();
 	}
 
 	public void startListening() {
 		try {
 			while (true) {
-				if (isServerOverloaded()) {
-					LOGGER.log(Level.SEVERE, "To much clients connected, try later");
-				} else {
-					acceptNewConnection();
-				}
+				acceptNewConnection();
 			}
 		} catch (IOException i) {
 			LOGGER.log(Level.SEVERE, "Socket Interrupted");
 		}
 
 	}
-
 
 	private void acceptNewConnection() throws IOException {
 		Socket socket = serverSocket.accept();
@@ -59,13 +54,8 @@ public class ServerTCP {
 	}
 
 	private void printServerInfo() throws UnknownHostException {
-		System.out.println("Server listen at port: " +  port + "\nip: " + InetAddress.getLocalHost().getHostAddress());
+		System.out.println("Server listen at port: " + port + "\nip: " + InetAddress.getLocalHost()
+			.getHostAddress());
 	}
-
-
-	private boolean isServerOverloaded() {
-		return connectedClients.get() >= MAXIMUM_CLIENTS_CONNECTED;
-	}
-
 
 } 
