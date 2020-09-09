@@ -1,0 +1,10 @@
+
+c
+java:S1854+"ARemove this useless assignment to local variable "receivedBytes".(¥•œ¨ıÿÿÿÿ8Ú°À.
+X	java:S125P"<This block of commented-out lines of code should be removed.(ÜÆ­á8ÛÎçÁ.
+m	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¢ç8ÈéŞÁ.
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(±¹Ïºúÿÿÿÿ8Å´Ğ´Á.
+T
+java:S1481+"2Remove this unused "receivedBytes" local variable.(¥•œ¨ıÿÿÿÿ8Ú°À.
+]	java:S125K"<This block of commented-out lines of code should be removed.(Ã·Åÿÿÿÿÿ8ÛÎçÁ.

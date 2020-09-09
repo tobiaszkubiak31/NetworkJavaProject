@@ -1,0 +1,9 @@
+
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ºÅôì8Ç³‘Á.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¹ĞÏ¡8Úì±Á.
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹ĞÏ¡8Úì±Á.
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ºÅôì8Ç³‘Á.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ÙØÌ›8Ç³‘Á.

@@ -1,0 +1,16 @@
+
+m	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«¯ì8¼ïî³Á.
+\
+java:S4719)":Replace Charset.forName() call with StandardCharsets.UTF_8(Âö¤ıÿÿÿÿ8Ïıß³Á.
+R
+java:S2209"5Change this instance-reference to a static reference.( ö½É8Ïıß³Á.
+L
+java:S1144B"/Remove this unused private "validateIp" method.(“°¼Ç8¼ïî³Á.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(´ÎÎâ8Ïıß³Á.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8Ïıß³Á.
+t
+java:S1450"RRemove the "buf" field and declare it as a local variable in the relevant methods.(¯”«óşÿÿÿÿ8Ïıß³Á.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñ¦„¶øÿÿÿÿ8Ïıß³Á.
+Š
+java:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(äÍè—8Ëåö³Á.
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(ë±íô8Ïıß³Á.

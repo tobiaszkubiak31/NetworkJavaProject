@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db882cfc-8acc-4f21-87cf-861d7c309b09" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="193" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1gB87g6GArcm4WDQfMUe3KKqG9E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="D:/chrome pobrane/TCP_Client (3).jar!/" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15136719" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projekty\Java programowanie sieciowe\Final Projet Java SE\src\tcp" />
+      <recent name="D:\projekty\Java programowanie sieciowe\Final Projet Java SE\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClientRunner">
+    <configuration name="ClientRunner" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="runners.ClientRunner" />
+      <module name="Final Projet Java SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.tcpclient.SendDataClientTCP" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfacesFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.tcpserver.InterfacesFinder" />
+      <module name="Final Projet Java SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.tcpserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="runners.SendMain" />
+      <module name="Final Projet Java SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="runners.ServerRunner" />
+      <module name="Final Projet Java SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.udpresponder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.tcpserver.ServerTCP" />
+      <module name="Final Projet Java SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.udpresponder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientRunner" />
+        <item itemvalue="Application.ServerRunner" />
+        <item itemvalue="Application.InterfacesFinder" />
+        <item itemvalue="Application.SendMain" />
+        <item itemvalue="Application.ServerTCP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db882cfc-8acc-4f21-87cf-861d7c309b09" name="Default Changelist" comment="" />
+      <created>1597576459506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597576459506</updated>
+      <workItem from="1597576467034" duration="28113000" />
+      <workItem from="1598198550266" duration="20882000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="78" key="#ClientRunner" timestamp="1598821644984">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="488" y="78" key="#ClientRunner/0.0.1536.864@0.0.1536.864" timestamp="1598821644984" />
+    <state x="488" y="66" key="#MainFrame" timestamp="1598031585783">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="488" y="66" key="#MainFrame/0.0.1536.864@0.0.1536.864" timestamp="1598031585783" />
+    <state x="393" y="75" key="#Project_Structure" timestamp="1597576472848">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="393" y="75" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1597576472848" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1597577673848">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1597577673848" />
+    <state x="561" y="302" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598202174912">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="561" y="302" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1598202174912" />
+    <state x="431" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598475025601">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1598475025601" />
+    <state width="461" height="618" key="DebuggerActiveHint" timestamp="1598382118426">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="461" height="618" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1598382118426" />
+    <state x="549" y="125" key="FileChooserDialogImpl" timestamp="1598203104428">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="125" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1598203104428" />
+    <state width="1492" height="187" key="GridCell.Tab.0.bottom" timestamp="1599600316138">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="187" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1599600316138" />
+    <state width="1492" height="187" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598822675436" />
+    <state width="1492" height="187" key="GridCell.Tab.0.center" timestamp="1599600316138">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="187" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1599600316138" />
+    <state width="1492" height="187" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598822675436" />
+    <state width="1492" height="187" key="GridCell.Tab.0.left" timestamp="1599600316138">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="187" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1599600316138" />
+    <state width="1492" height="187" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598822675435" />
+    <state width="1492" height="187" key="GridCell.Tab.0.right" timestamp="1599600316138">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="187" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1599600316138" />
+    <state width="1492" height="187" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598822675436" />
+    <state width="1492" height="255" key="GridCell.Tab.1.bottom" timestamp="1599600215329">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="255" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1599600215329" />
+    <state width="1492" height="255" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598822667992" />
+    <state width="1492" height="255" key="GridCell.Tab.1.center" timestamp="1599600215328">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="255" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1599600215328" />
+    <state width="1492" height="255" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1598822667991" />
+    <state width="1492" height="255" key="GridCell.Tab.1.left" timestamp="1599600215328">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="255" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1599600215328" />
+    <state width="1492" height="255" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1598822667991" />
+    <state width="1492" height="255" key="GridCell.Tab.1.right" timestamp="1599600215328">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="255" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1599600215328" />
+    <state width="1492" height="255" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1598822667992" />
+    <state x="549" y="101" key="NewModule_or_Project.wizard" timestamp="1598203108237">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="101" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1598203108237" />
+    <state x="480" y="0" width="575" height="808" key="RefactorJ.ExtractClass" timestamp="1598031048886">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="480" y="0" width="575" height="808" key="RefactorJ.ExtractClass/0.0.1536.864@0.0.1536.864" timestamp="1598031048886" />
+    <state x="249" y="6" key="SettingsEditor" timestamp="1598030987400">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="6" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1598030987400" />
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1598198939026">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1598198939026" />
+    <state x="499" y="192" key="extract.method.dialog" timestamp="1598822107233">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="192" key="extract.method.dialog/0.0.1536.864@0.0.1536.864" timestamp="1598822107233" />
+    <state x="453" y="148" width="629" height="568" key="find.popup" timestamp="1598037573503">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="453" y="148" width="629" height="568" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1598037573503" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1598380668213">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1536.864@0.0.1536.864" timestamp="1598380668213" />
+    <state x="511" y="56" key="refactoring.ChangeSignatureDialog" timestamp="1598105812134">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="511" y="56" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1598105812134" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1598200837904">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1598200837904" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/client/tcpclient/SendDataClientTCP.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/server/tcpserver/ServerTCP.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/client/udpsender/MulticastAddressService.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Final_Projet_Java_SE$MulticastSender.ic" NAME="MulticastSender Coverage Results" MODIFIED="1597576803282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>multicast.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+
+7
+java:S1170"!Make this final field static too.(ƒğÍ»
+Z
+java:S1197"8Move the array designator from the variable to the type.(²Á€œüÿÿÿÿ8Ãô˜œÀ.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(ç¥ÑÁøÿÿÿÿ8òöÆœÀ.
+k	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âîëÌÿÿÿÿÿ
+T
+java:S1135"2Complete the task associated to this TODO comment.(³ş¢†ùÿÿÿÿ8§“´œÀ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Û®²8ƒ×õ±Á.
+y	java:S116"dRename this field "MAXIMUM_CLIENTS_CONNECTED" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒğÍ»
+m	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ş¥8µĞö±Á.

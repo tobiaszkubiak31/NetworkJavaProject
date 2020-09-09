@@ -1,0 +1,9 @@
+
+m
+java:S1450"QRemove the "t1" field and declare it as a local variable in the relevant methods.(Äá!8šŞ”Á.
+s
+java:S1450"QRemove the "t2" field and declare it as a local variable in the relevant methods.(†§Úëûÿÿÿÿ8šŞ”Á.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(…´—ñ8…º¡”Á.
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(½ãõœıÿÿÿÿ8…º¡”Á.
+W
+java:S4719":Replace Charset.forName() call with StandardCharsets.UTF_8(Ò‚ğ¯8…º¡”Á.

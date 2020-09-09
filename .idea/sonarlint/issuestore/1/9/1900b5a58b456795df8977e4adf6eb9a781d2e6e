@@ -1,0 +1,7 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(ÂõëÃüÿÿÿÿ8ÁÒ—´Á.
+s
+java:S1450"VRemove the "tcpPort" field and declare it as a local variable in the relevant methods.(¡¸Ÿ¦8ü£Í³Á.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·•Àğùÿÿÿÿ8Ö Á³Á.
+Z
+java:S1197"8Move the array designator from the variable to the type.(²Á€œüÿÿÿÿ8Ö Á³Á.

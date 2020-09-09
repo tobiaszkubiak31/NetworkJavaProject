@@ -1,0 +1,24 @@
+
+@
+java:S1148H"#Use a logger to log this exception.(¹ÂíÕ8Ûé”Á.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ°‚À8³æ±Á.
+
+java:S1450"_Remove the "requestFrequency" field and declare it as a local variable in the relevant methods.(çÒÊúÿÿÿÿ8¹§ş“Á.
+]	java:S125p"<This block of commented-out lines of code should be removed.(ÊœÕ°úÿÿÿÿ8Ûé”Á.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(Ïş½ñùÿÿÿÿ8¦Ÿ””Á.
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£ÆŸ³ÿÿÿÿÿ
+a
+java:S20955"DUse try-with-resources or close this "Socket" in a "finally" clause.(ø×†é8Ûé”Á.
+c
+java:S2142)"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8í¯ß”Á.
+]	java:S125j"<This block of commented-out lines of code should be removed.(šãŠıÿÿÿÿ8Ûé”Á.
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(£ÆŸ³ÿÿÿÿÿ
+X	java:S125e"<This block of commented-out lines of code should be removed.(ºçŸº8Ûé”Á.
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ûí‚üÿÿÿÿ
+W
+java:S11175":Rename "socket" which hides the field declared at line 14.(ø×†é8Ûé”Á.
+r	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¶×şÿÿÿÿ8ñÈÂ´Á.
+]	java:S125g"<This block of commented-out lines of code should be removed.(·ßşìùÿÿÿÿ8Ûé”Á.
+]	java:S125t"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8Ûé”Á.
