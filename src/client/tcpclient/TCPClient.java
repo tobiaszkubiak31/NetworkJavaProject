@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class TCPClient implements Runnable {
+public class TCPClient {
 
 	private final static Logger LOGGER = Logger.getLogger(TCPClient.class.getName());
 	final static private String errorConnectionMessage = SystemConsts.errorConnectionMessage;
@@ -25,7 +25,6 @@ public class TCPClient implements Runnable {
 
 	public static void main(String[] args) {
 		TCPClient TCPClient = new TCPClient("172.17.16.81", 7);
-		TCPClient.run();
 	}
 
 	public void connectToServer() {
@@ -44,7 +43,6 @@ public class TCPClient implements Runnable {
 			LOGGER.log(Level.SEVERE, i.toString());
 		}
 		closeResources();
-		System.exit(1);
 
 	}
 
@@ -90,11 +88,6 @@ public class TCPClient implements Runnable {
 		}
 	}
 
-
-	@Override
-	public void run() {
-		connectToServer();
-	}
 }
 
 //

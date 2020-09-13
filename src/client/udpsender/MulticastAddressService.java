@@ -10,26 +10,29 @@ import java.net.InetAddress;
 import java.net.SocketException;
 import java.net.UnknownHostException;
 import java.nio.charset.Charset;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 
 public class MulticastAddressService {
 
+	public static final int SECONDS_10 = 10000;
 	private static DatagramSocket datagramSocket;
-
 
 	public static HashMap<String, Integer> requestForAddresses(String message, String groupAddress,
 		int port) {
 		try {
+			System.out.println("MulticastAddressService :Send message for port 7 and udp group address");
 			sendMulticastMessage(message, InetAddress.getByName(groupAddress), port);
-			return getResponseWithAdressess();
+			System.out.println("MulticastAddressService: Wait for response from server...");
+			return getResponseWithAddresses();
 		} catch (UnknownHostException e) {
 			System.out.println("Unknown host problem");
+			datagramSocket.close();
 		} catch (SocketException e) {
 			System.out.println("Problem with connection");
+			datagramSocket.close();
 		} catch (IOException e) {
 			System.out.println(e);
+			datagramSocket.close();
 		}
 		return new HashMap<>();
 	}
@@ -44,19 +47,20 @@ public class MulticastAddressService {
 		datagramSocket.close();
 	}
 
-	private static HashMap<String, Integer> getResponseWithAdressess() throws IOException {
+	private static HashMap<String, Integer> getResponseWithAddresses() throws IOException {
 		HashMap<String, Integer> ips;
 		byte[] buf = new byte[256];
 
 		datagramSocket = new DatagramSocket(8);
 		DatagramPacket packet = new DatagramPacket(buf, buf.length);
+		datagramSocket.setSoTimeout(SECONDS_10);
 
 		datagramSocket.receive(packet);
 		String receivedServersRoutes = new String(
 			packet.getData(), 0, packet.getLength());
-		System.out.printf(receivedServersRoutes);
 		ips = parseIpAndPortToMap(new StringReader(receivedServersRoutes));
 		datagramSocket.close();
+		System.out.println("MulticastAddressService: Respond received");
 		return ips;
 	}
 
