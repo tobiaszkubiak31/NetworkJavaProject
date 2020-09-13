@@ -1,6 +1,6 @@
 package client.tcpclient;
 
-import config.SystemConsts;
+import utilis.SystemConsts;
 import java.net.*;
 import java.io.*;
 import java.util.Scanner;
@@ -21,10 +21,6 @@ public class TCPClient {
 	public TCPClient(String ip, int port) {
 		this.address = ip;
 		initSocket(port);
-	}
-
-	public static void main(String[] args) {
-		TCPClient TCPClient = new TCPClient("172.17.16.81", 7);
 	}
 
 	public void connectToServer() {

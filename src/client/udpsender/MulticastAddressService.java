@@ -14,7 +14,7 @@ import java.util.HashMap;
 
 public class MulticastAddressService {
 
-	public static final int SECONDS_10 = 10000;
+	public static final int SECONDS_5 = 5000;
 	private static DatagramSocket datagramSocket;
 
 	public static HashMap<String, Integer> requestForAddresses(String message, String groupAddress,
@@ -53,7 +53,7 @@ public class MulticastAddressService {
 
 		datagramSocket = new DatagramSocket(8);
 		DatagramPacket packet = new DatagramPacket(buf, buf.length);
-		datagramSocket.setSoTimeout(SECONDS_10);
+		datagramSocket.setSoTimeout(SECONDS_5);
 
 		datagramSocket.receive(packet);
 		String receivedServersRoutes = new String(

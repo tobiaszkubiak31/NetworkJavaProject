@@ -1,4 +1,4 @@
-package config;
+package utilis;
 
 public final class SystemConsts {
 	final static public String errorConnectionMessage= "Error, Connection with socket timeout, potential problems:"
