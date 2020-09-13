@@ -9,17 +9,19 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ServerTCP {
+public class ServerTCP implements Runnable{
 
 	private static AtomicInteger connectedClients = new AtomicInteger(0);
-	private static int port = 7;
-	private final int MAXIMUM_CLIENTS_CONNECTED = 3;
+	private static int port;
+	private final String serverIp;
 	private Logger LOGGER = Logger.getLogger(this.getClass().getName());
 	private ServerSocket serverSocket;
 
-	public ServerTCP(int port) throws IOException {
+	public ServerTCP(int port, String routableIp) throws IOException {
 		try {
-			serverSocket = new ServerSocket(port, 50, InetAddress.getByName("192.168.56.1"));
+			serverSocket = new ServerSocket(port, 50, InetAddress.getByName(routableIp));
+			this.port = port;
+			this.serverIp = routableIp;
 //			serverSocket = new ServerSocket(port);
 			printServerInfo();
 		} catch (IOException i) {
@@ -28,11 +30,12 @@ public class ServerTCP {
 		}
 	}
 
-	public InetAddress getServerIp() {
-		return serverSocket.getInetAddress();
+	@Override
+	public void run() {
+		startListening();
 	}
 
-	public void startListening() {
+	private void startListening() {
 		try {
 			while (true) {
 				acceptNewConnection();
@@ -53,9 +56,9 @@ public class ServerTCP {
 		connectedClients.incrementAndGet();
 	}
 
-	private void printServerInfo() throws UnknownHostException {
-		System.out.println("Server listen at port: " + port + "\nip: " + InetAddress.getLocalHost()
-			.getHostAddress());
+	private void printServerInfo() {
+		System.out.println("Server listen at port: " + port + "\nip: " + serverIp);
 	}
 
-} 
+
+}

@@ -4,12 +4,14 @@ import java.net.Inet6Address;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
+import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.List;
 
 public class InterfacesFinder {
 
-	public static void main(String[] args) {
-		String ip;
+	public static List<String> getAllRoutableInterfacesIp() {
+		List<String> availableIps = new ArrayList<>();
 		try {
 			Enumeration<NetworkInterface> interfaces = NetworkInterface.getNetworkInterfaces();
 			while (interfaces.hasMoreElements()) {
@@ -25,13 +27,14 @@ public class InterfacesFinder {
 					// *EDIT*
 					if (addr instanceof Inet6Address) continue;
 
-					ip = addr.getHostAddress();
-					System.out.println(iface.getDisplayName() + " " + ip);
+					availableIps.add(addr.getHostAddress());
 				}
 			}
+
 		} catch (SocketException e) {
 			throw new RuntimeException(e);
 		}
+		return availableIps;
 	}
 
 }

@@ -3,32 +3,39 @@ package runners;
 import config.SystemConsts;
 import java.io.IOException;
 import java.net.InetAddress;
-import java.net.UnknownHostException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Random;
+import server.tcpserver.InterfacesFinder;
 import server.tcpserver.ServerTCP;
 import server.udpresponder.MulticastAddressResponder;
 
 public class ServerRunner {
 
 	private static final Random RANDOM = new Random();
+	private static final String MULTICAST_GROUP_IP = SystemConsts.multicastGroupIp;
 	private static int tcpPort;
 	private static int udpPort = 7;
-	private static InetAddress serverIpAddress;
 
-	public static void main(String args[]) throws IOException {
-		tcpPort = randomTcpPort();
-		String ipAddress = SystemConsts.multicastGroupIp;
-		MulticastAddressResponder multicastResponder = new MulticastAddressResponder(ipAddress, udpPort,
-			tcpPort);
-		Thread t1 = new Thread(multicastResponder);
-		t1.start();
-		ServerTCP serverTcp = new ServerTCP(tcpPort);
-		serverIpAddress = serverTcp.getServerIp();
-		multicastResponder.setServerIpAddress(serverIpAddress);
-		serverTcp.startListening();
+	public static void main(String[] args) throws IOException {
+		List<String> routableIps = InterfacesFinder.getAllRoutableInterfacesIp();
+		System.out.println(routableIps);
+		Map<String, String> createdServersData = new HashMap();
+		for (String routableIp : routableIps) {
+			tcpPort = randomTcpPort();
+			ServerTCP serverTcp = new ServerTCP(tcpPort, routableIp);
+//			serverIpAddress = serverTcp.getServerIp();
+			Thread t1 = new Thread(serverTcp);
+			t1.start();
+			createdServersData.put(routableIp,String.valueOf(tcpPort));
+		}
+
+		MulticastAddressResponder multicastResponder = new MulticastAddressResponder(
+			MULTICAST_GROUP_IP, udpPort,
+			tcpPort, createdServersData);
+		multicastResponder.startResponding();
 	}
-
-
 
 	private static int randomTcpPort() {
 		int low = 10;
